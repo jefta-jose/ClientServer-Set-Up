@@ -1,23 +1,23 @@
 # ClientServer-Set-Up
 
 # Client
-pnpm create vite
+--- pnpm create vite
 
-pnpm install
+--- pnpm install
 
-pnpm add -D vite
+--- pnpm add -D vite
 
-pnpm run dev
+--- pnpm run dev
 
 # Server
 
-pnpm init
+--- pnpm init
 
-pnpm add express
+--- pnpm add express
 
-pnpm add dotenv cors
+--- pnpm add dotenv cors
 
-pnpm add -D nodemon
+--- pnpm add -D nodemon
 
 
 Create the server.js File
@@ -55,4 +55,4 @@ Update your package.json scripts to include the start and dev commands:
 }
 
 
-pnpm run dev
+--- pnpm run dev
