@@ -19,9 +19,7 @@
 
 --- pnpm add -D nodemon
 
-
-
-
+================================================================================================================
 Create the server.js File
 
 const express = require('express');
@@ -56,7 +54,6 @@ Update your package.json scripts to include the start and dev commands:
   "dev": "nodemon server.js"
 }
 
-
-
+================================================================================================================
 
 --- pnpm run dev
