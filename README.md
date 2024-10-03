@@ -18,15 +18,9 @@ pnpm add express
 pnpm add dotenv cors
 
 pnpm add -D nodemon
-Update your package.json scripts to include the start and dev commands:
 
 
-"scripts": {
-  "start": "node server.js",
-  "dev": "nodemon server.js"
-}
-
-4. Create the server.js File
+Create the server.js File
 
 const express = require('express');
 const cors = require('cors');
@@ -51,5 +45,14 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+
+Update your package.json scripts to include the start and dev commands:
+
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+}
+
 
 pnpm run dev
